@@ -1,0 +1,4 @@
+What does io mean for Socket?
+So, the "Socket" in socket.io refers to the underlying webSocket transport it uses to make and maintain connections,
+ just like an old TCP Socket connection.
+ the "io" method of both the server and the client libraries is the initiating functions to start using the libraries.
