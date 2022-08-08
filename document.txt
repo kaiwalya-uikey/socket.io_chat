@@ -2,3 +2,13 @@ What does io mean for Socket?
 So, the "Socket" in socket.io refers to the underlying webSocket transport it uses to make and maintain connections,
  just like an old TCP Socket connection.
  the "io" method of both the server and the client libraries is the initiating functions to start using the libraries.
+
+
+What is Socket.IO used for?
+Socket.IO is a library that enables low-latency, bidirectional and event-based communication 
+between a client and a server. It is built on top of the WebSocket protocol and 
+provides additional guarantees like fallback to HTTP long-polling or automatic reconnection
+
+What is emit in socket?
+emit() to send a message to all the connected clients.
+ This code will notify when a user connects to the server. io.on("connection", function(socket) { io.emit(“user connected”); });
